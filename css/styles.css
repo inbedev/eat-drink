@@ -1,0 +1,179 @@
+#header {
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+}
+
+#footer {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-style: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav i {
+    color: black;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.part1 #texte {
+    flex: 1;
+    text-align: left;
+}
+
+i {
+    color: red;
+}
+
+button {
+    background-color: red;
+    border-radius: 1px;
+}
+#la_livreuse {
+    flex: 1;
+    position: absolute;
+    left: 850px;
+    bottom: 50px;
+}
+#la_livreuse img {
+    height: 400px;
+    width: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid salmon;
+    border-radius: 5%;
+    background-color: pink;
+
+}
+#main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
+
+    
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+#barre {
+    display: flex;
+    justify-content: center;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.item:first-child {
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.produits {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.prods {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pizza {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.drink {
+    display: flex;
+    justify-content: space-evenly;
+}
+.prix {
+    color: red;
+}
+.title {
+    text-align: center;
+}
+
+
+#footer {
+    
+    background-color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.email {
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+    border: 1 solid px whitesmoke;
+    border-radius: 10px;
+    background-color: white;
+}
+.brands {
+    text-align: center;
+}
