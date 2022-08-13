@@ -16,6 +16,9 @@ nav {
     align-items: center;
 
 }
+.items {
+    width: 31%;
+}
 
 nav ul {
     display: flex;
@@ -131,6 +134,7 @@ h2 {
 .produits {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 
